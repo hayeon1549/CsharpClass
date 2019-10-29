@@ -1,0 +1,10 @@
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Class10_Struct\bin\Debug\netcoreapp2.1\Class10_Struct.deps.json
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Class10_Struct\bin\Debug\netcoreapp2.1\Class10_Struct.runtimeconfig.json
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Class10_Struct\bin\Debug\netcoreapp2.1\Class10_Struct.runtimeconfig.dev.json
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Class10_Struct\bin\Debug\netcoreapp2.1\Class10_Struct.dll
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Class10_Struct\bin\Debug\netcoreapp2.1\Class10_Struct.pdb
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Class10_Struct\obj\Debug\netcoreapp2.1\Class10_Struct.csproj.CoreCompileInputs.cache
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Class10_Struct\obj\Debug\netcoreapp2.1\Class10_Struct.AssemblyInfoInputs.cache
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Class10_Struct\obj\Debug\netcoreapp2.1\Class10_Struct.AssemblyInfo.cs
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Class10_Struct\obj\Debug\netcoreapp2.1\Class10_Struct.dll
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Class10_Struct\obj\Debug\netcoreapp2.1\Class10_Struct.pdb

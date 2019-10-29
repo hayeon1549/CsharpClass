@@ -1,0 +1,10 @@
+C:\Users\하연\source\repos\Delegate\Delegate09_AnonymousMethod\bin\Debug\netcoreapp2.1\Delegate09_AnonymousMethod.deps.json
+C:\Users\하연\source\repos\Delegate\Delegate09_AnonymousMethod\bin\Debug\netcoreapp2.1\Delegate09_AnonymousMethod.runtimeconfig.json
+C:\Users\하연\source\repos\Delegate\Delegate09_AnonymousMethod\bin\Debug\netcoreapp2.1\Delegate09_AnonymousMethod.runtimeconfig.dev.json
+C:\Users\하연\source\repos\Delegate\Delegate09_AnonymousMethod\bin\Debug\netcoreapp2.1\Delegate09_AnonymousMethod.dll
+C:\Users\하연\source\repos\Delegate\Delegate09_AnonymousMethod\bin\Debug\netcoreapp2.1\Delegate09_AnonymousMethod.pdb
+C:\Users\하연\source\repos\Delegate\Delegate09_AnonymousMethod\obj\Debug\netcoreapp2.1\Delegate09_AnonymousMethod.csproj.CoreCompileInputs.cache
+C:\Users\하연\source\repos\Delegate\Delegate09_AnonymousMethod\obj\Debug\netcoreapp2.1\Delegate09_AnonymousMethod.AssemblyInfoInputs.cache
+C:\Users\하연\source\repos\Delegate\Delegate09_AnonymousMethod\obj\Debug\netcoreapp2.1\Delegate09_AnonymousMethod.AssemblyInfo.cs
+C:\Users\하연\source\repos\Delegate\Delegate09_AnonymousMethod\obj\Debug\netcoreapp2.1\Delegate09_AnonymousMethod.dll
+C:\Users\하연\source\repos\Delegate\Delegate09_AnonymousMethod\obj\Debug\netcoreapp2.1\Delegate09_AnonymousMethod.pdb

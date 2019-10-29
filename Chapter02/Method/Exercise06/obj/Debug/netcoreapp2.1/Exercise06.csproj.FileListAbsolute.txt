@@ -1,0 +1,11 @@
+C:\Users\하연\Desktop\공부\2학년\수업\C#\method\Exercise06\bin\Debug\netcoreapp2.1\Exercise06.deps.json
+C:\Users\하연\Desktop\공부\2학년\수업\C#\method\Exercise06\bin\Debug\netcoreapp2.1\Exercise06.runtimeconfig.json
+C:\Users\하연\Desktop\공부\2학년\수업\C#\method\Exercise06\bin\Debug\netcoreapp2.1\Exercise06.runtimeconfig.dev.json
+C:\Users\하연\Desktop\공부\2학년\수업\C#\method\Exercise06\bin\Debug\netcoreapp2.1\Exercise06.dll
+C:\Users\하연\Desktop\공부\2학년\수업\C#\method\Exercise06\bin\Debug\netcoreapp2.1\Exercise06.pdb
+C:\Users\하연\Desktop\공부\2학년\수업\C#\method\Exercise06\obj\Debug\netcoreapp2.1\Exercise06.csprojAssemblyReference.cache
+C:\Users\하연\Desktop\공부\2학년\수업\C#\method\Exercise06\obj\Debug\netcoreapp2.1\Exercise06.csproj.CoreCompileInputs.cache
+C:\Users\하연\Desktop\공부\2학년\수업\C#\method\Exercise06\obj\Debug\netcoreapp2.1\Exercise06.AssemblyInfoInputs.cache
+C:\Users\하연\Desktop\공부\2학년\수업\C#\method\Exercise06\obj\Debug\netcoreapp2.1\Exercise06.AssemblyInfo.cs
+C:\Users\하연\Desktop\공부\2학년\수업\C#\method\Exercise06\obj\Debug\netcoreapp2.1\Exercise06.dll
+C:\Users\하연\Desktop\공부\2학년\수업\C#\method\Exercise06\obj\Debug\netcoreapp2.1\Exercise06.pdb

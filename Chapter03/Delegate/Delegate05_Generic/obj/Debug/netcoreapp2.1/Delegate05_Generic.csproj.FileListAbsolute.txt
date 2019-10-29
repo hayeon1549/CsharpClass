@@ -1,0 +1,11 @@
+C:\Users\하연\source\repos\Delegate\Delegate05_Generic\obj\Debug\netcoreapp2.1\Delegate05_Generic.csprojAssemblyReference.cache
+C:\Users\하연\source\repos\Delegate\Delegate05_Generic\obj\Debug\netcoreapp2.1\Delegate05_Generic.csproj.CoreCompileInputs.cache
+C:\Users\하연\source\repos\Delegate\Delegate05_Generic\obj\Debug\netcoreapp2.1\Delegate05_Generic.AssemblyInfoInputs.cache
+C:\Users\하연\source\repos\Delegate\Delegate05_Generic\obj\Debug\netcoreapp2.1\Delegate05_Generic.AssemblyInfo.cs
+C:\Users\하연\source\repos\Delegate\Delegate05_Generic\bin\Debug\netcoreapp2.1\Delegate05_Generic.deps.json
+C:\Users\하연\source\repos\Delegate\Delegate05_Generic\bin\Debug\netcoreapp2.1\Delegate05_Generic.runtimeconfig.json
+C:\Users\하연\source\repos\Delegate\Delegate05_Generic\bin\Debug\netcoreapp2.1\Delegate05_Generic.runtimeconfig.dev.json
+C:\Users\하연\source\repos\Delegate\Delegate05_Generic\bin\Debug\netcoreapp2.1\Delegate05_Generic.dll
+C:\Users\하연\source\repos\Delegate\Delegate05_Generic\bin\Debug\netcoreapp2.1\Delegate05_Generic.pdb
+C:\Users\하연\source\repos\Delegate\Delegate05_Generic\obj\Debug\netcoreapp2.1\Delegate05_Generic.dll
+C:\Users\하연\source\repos\Delegate\Delegate05_Generic\obj\Debug\netcoreapp2.1\Delegate05_Generic.pdb

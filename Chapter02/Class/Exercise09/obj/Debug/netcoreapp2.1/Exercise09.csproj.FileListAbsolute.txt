@@ -1,0 +1,11 @@
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Exercise09\bin\Debug\netcoreapp2.1\Exercise09.deps.json
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Exercise09\bin\Debug\netcoreapp2.1\Exercise09.runtimeconfig.json
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Exercise09\bin\Debug\netcoreapp2.1\Exercise09.runtimeconfig.dev.json
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Exercise09\bin\Debug\netcoreapp2.1\Exercise09.dll
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Exercise09\bin\Debug\netcoreapp2.1\Exercise09.pdb
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Exercise09\obj\Debug\netcoreapp2.1\Exercise09.csproj.CoreCompileInputs.cache
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Exercise09\obj\Debug\netcoreapp2.1\Exercise09.AssemblyInfoInputs.cache
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Exercise09\obj\Debug\netcoreapp2.1\Exercise09.AssemblyInfo.cs
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Exercise09\obj\Debug\netcoreapp2.1\Exercise09.dll
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Exercise09\obj\Debug\netcoreapp2.1\Exercise09.pdb
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Exercise09\obj\Debug\netcoreapp2.1\Exercise09.csprojAssemblyReference.cache

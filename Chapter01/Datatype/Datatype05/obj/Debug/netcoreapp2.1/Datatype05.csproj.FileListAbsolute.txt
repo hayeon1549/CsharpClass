@@ -1,0 +1,10 @@
+C:\Users\하연\source\repos\Datatype\Datatype05\bin\Debug\netcoreapp2.1\Datatype05.deps.json
+C:\Users\하연\source\repos\Datatype\Datatype05\bin\Debug\netcoreapp2.1\Datatype05.runtimeconfig.json
+C:\Users\하연\source\repos\Datatype\Datatype05\bin\Debug\netcoreapp2.1\Datatype05.runtimeconfig.dev.json
+C:\Users\하연\source\repos\Datatype\Datatype05\bin\Debug\netcoreapp2.1\Datatype05.dll
+C:\Users\하연\source\repos\Datatype\Datatype05\bin\Debug\netcoreapp2.1\Datatype05.pdb
+C:\Users\하연\source\repos\Datatype\Datatype05\obj\Debug\netcoreapp2.1\Datatype05.csproj.CoreCompileInputs.cache
+C:\Users\하연\source\repos\Datatype\Datatype05\obj\Debug\netcoreapp2.1\Datatype05.AssemblyInfoInputs.cache
+C:\Users\하연\source\repos\Datatype\Datatype05\obj\Debug\netcoreapp2.1\Datatype05.AssemblyInfo.cs
+C:\Users\하연\source\repos\Datatype\Datatype05\obj\Debug\netcoreapp2.1\Datatype05.dll
+C:\Users\하연\source\repos\Datatype\Datatype05\obj\Debug\netcoreapp2.1\Datatype05.pdb

@@ -1,0 +1,7 @@
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Class11_Tuple\bin\Debug\netcoreapp2.1\Class11_Tuple.deps.json
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Class11_Tuple\bin\Debug\netcoreapp2.1\Class11_Tuple.runtimeconfig.json
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Class11_Tuple\bin\Debug\netcoreapp2.1\Class11_Tuple.runtimeconfig.dev.json
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Class11_Tuple\bin\Debug\netcoreapp2.1\Class11_Tuple.dll
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Class11_Tuple\obj\Debug\netcoreapp2.1\Class11_Tuple.csproj.CoreCompileInputs.cache
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Class11_Tuple\obj\Debug\netcoreapp2.1\Class11_Tuple.AssemblyInfoInputs.cache
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Class11_Tuple\obj\Debug\netcoreapp2.1\Class11_Tuple.AssemblyInfo.cs

@@ -1,0 +1,3 @@
+C:\Users\하연\Desktop\공부\2학년\수업\C#\GenericHandling\GenericClass02\obj\Debug\netcoreapp2.1\GenericClass02.csproj.CoreCompileInputs.cache
+C:\Users\하연\Desktop\공부\2학년\수업\C#\GenericHandling\GenericClass02\obj\Debug\netcoreapp2.1\GenericClass02.AssemblyInfoInputs.cache
+C:\Users\하연\Desktop\공부\2학년\수업\C#\GenericHandling\GenericClass02\obj\Debug\netcoreapp2.1\GenericClass02.AssemblyInfo.cs

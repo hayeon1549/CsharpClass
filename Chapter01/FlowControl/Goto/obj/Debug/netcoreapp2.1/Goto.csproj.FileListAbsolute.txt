@@ -1,0 +1,10 @@
+C:\Users\하연\Desktop\공부\2학년\수업\C#\FlowControl\Goto\obj\Debug\netcoreapp2.1\Goto.csproj.CoreCompileInputs.cache
+C:\Users\하연\Desktop\공부\2학년\수업\C#\FlowControl\Goto\obj\Debug\netcoreapp2.1\Goto.AssemblyInfoInputs.cache
+C:\Users\하연\Desktop\공부\2학년\수업\C#\FlowControl\Goto\obj\Debug\netcoreapp2.1\Goto.AssemblyInfo.cs
+C:\Users\하연\Desktop\공부\2학년\수업\C#\FlowControl\Goto\bin\Debug\netcoreapp2.1\Goto.deps.json
+C:\Users\하연\Desktop\공부\2학년\수업\C#\FlowControl\Goto\bin\Debug\netcoreapp2.1\Goto.runtimeconfig.json
+C:\Users\하연\Desktop\공부\2학년\수업\C#\FlowControl\Goto\bin\Debug\netcoreapp2.1\Goto.runtimeconfig.dev.json
+C:\Users\하연\Desktop\공부\2학년\수업\C#\FlowControl\Goto\bin\Debug\netcoreapp2.1\Goto.dll
+C:\Users\하연\Desktop\공부\2학년\수업\C#\FlowControl\Goto\bin\Debug\netcoreapp2.1\Goto.pdb
+C:\Users\하연\Desktop\공부\2학년\수업\C#\FlowControl\Goto\obj\Debug\netcoreapp2.1\Goto.dll
+C:\Users\하연\Desktop\공부\2학년\수업\C#\FlowControl\Goto\obj\Debug\netcoreapp2.1\Goto.pdb

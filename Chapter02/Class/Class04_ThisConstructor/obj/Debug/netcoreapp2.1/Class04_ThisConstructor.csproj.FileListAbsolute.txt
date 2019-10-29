@@ -1,0 +1,10 @@
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Class04_ThisConstructor\bin\Debug\netcoreapp2.1\Class04_ThisConstructor.deps.json
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Class04_ThisConstructor\bin\Debug\netcoreapp2.1\Class04_ThisConstructor.runtimeconfig.json
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Class04_ThisConstructor\bin\Debug\netcoreapp2.1\Class04_ThisConstructor.runtimeconfig.dev.json
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Class04_ThisConstructor\bin\Debug\netcoreapp2.1\Class04_ThisConstructor.dll
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Class04_ThisConstructor\bin\Debug\netcoreapp2.1\Class04_ThisConstructor.pdb
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Class04_ThisConstructor\obj\Debug\netcoreapp2.1\Class04_ThisConstructor.csproj.CoreCompileInputs.cache
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Class04_ThisConstructor\obj\Debug\netcoreapp2.1\Class04_ThisConstructor.AssemblyInfoInputs.cache
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Class04_ThisConstructor\obj\Debug\netcoreapp2.1\Class04_ThisConstructor.AssemblyInfo.cs
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Class04_ThisConstructor\obj\Debug\netcoreapp2.1\Class04_ThisConstructor.dll
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Class04_ThisConstructor\obj\Debug\netcoreapp2.1\Class04_ThisConstructor.pdb

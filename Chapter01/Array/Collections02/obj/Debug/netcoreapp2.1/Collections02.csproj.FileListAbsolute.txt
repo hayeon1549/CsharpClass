@@ -1,0 +1,10 @@
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Array\Collections02\obj\Debug\netcoreapp2.1\Collections02.csproj.CoreCompileInputs.cache
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Array\Collections02\obj\Debug\netcoreapp2.1\Collections02.AssemblyInfoInputs.cache
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Array\Collections02\obj\Debug\netcoreapp2.1\Collections02.AssemblyInfo.cs
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Array\Collections02\bin\Debug\netcoreapp2.1\Collections02.deps.json
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Array\Collections02\bin\Debug\netcoreapp2.1\Collections02.runtimeconfig.json
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Array\Collections02\bin\Debug\netcoreapp2.1\Collections02.runtimeconfig.dev.json
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Array\Collections02\bin\Debug\netcoreapp2.1\Collections02.dll
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Array\Collections02\bin\Debug\netcoreapp2.1\Collections02.pdb
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Array\Collections02\obj\Debug\netcoreapp2.1\Collections02.dll
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Array\Collections02\obj\Debug\netcoreapp2.1\Collections02.pdb

@@ -1,0 +1,11 @@
+C:\Users\하연\source\repos\Datatype\Datatype\bin\Debug\netcoreapp2.1\Datatype01.deps.json
+C:\Users\하연\source\repos\Datatype\Datatype\bin\Debug\netcoreapp2.1\Datatype01.runtimeconfig.json
+C:\Users\하연\source\repos\Datatype\Datatype\bin\Debug\netcoreapp2.1\Datatype01.runtimeconfig.dev.json
+C:\Users\하연\source\repos\Datatype\Datatype\bin\Debug\netcoreapp2.1\Datatype01.dll
+C:\Users\하연\source\repos\Datatype\Datatype\bin\Debug\netcoreapp2.1\Datatype01.pdb
+C:\Users\하연\source\repos\Datatype\Datatype\obj\Debug\netcoreapp2.1\Datatype01.csprojAssemblyReference.cache
+C:\Users\하연\source\repos\Datatype\Datatype\obj\Debug\netcoreapp2.1\Datatype01.csproj.CoreCompileInputs.cache
+C:\Users\하연\source\repos\Datatype\Datatype\obj\Debug\netcoreapp2.1\Datatype01.AssemblyInfoInputs.cache
+C:\Users\하연\source\repos\Datatype\Datatype\obj\Debug\netcoreapp2.1\Datatype01.AssemblyInfo.cs
+C:\Users\하연\source\repos\Datatype\Datatype\obj\Debug\netcoreapp2.1\Datatype01.dll
+C:\Users\하연\source\repos\Datatype\Datatype\obj\Debug\netcoreapp2.1\Datatype01.pdb

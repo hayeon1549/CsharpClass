@@ -1,0 +1,10 @@
+C:\Users\하연\Desktop\공부\2학년\수업\C#\FlowControl\Exercise04\bin\Debug\netcoreapp2.1\Exercise04.deps.json
+C:\Users\하연\Desktop\공부\2학년\수업\C#\FlowControl\Exercise04\bin\Debug\netcoreapp2.1\Exercise04.runtimeconfig.json
+C:\Users\하연\Desktop\공부\2학년\수업\C#\FlowControl\Exercise04\bin\Debug\netcoreapp2.1\Exercise04.runtimeconfig.dev.json
+C:\Users\하연\Desktop\공부\2학년\수업\C#\FlowControl\Exercise04\bin\Debug\netcoreapp2.1\Exercise04.dll
+C:\Users\하연\Desktop\공부\2학년\수업\C#\FlowControl\Exercise04\bin\Debug\netcoreapp2.1\Exercise04.pdb
+C:\Users\하연\Desktop\공부\2학년\수업\C#\FlowControl\Exercise04\obj\Debug\netcoreapp2.1\Exercise04.csproj.CoreCompileInputs.cache
+C:\Users\하연\Desktop\공부\2학년\수업\C#\FlowControl\Exercise04\obj\Debug\netcoreapp2.1\Exercise04.AssemblyInfoInputs.cache
+C:\Users\하연\Desktop\공부\2학년\수업\C#\FlowControl\Exercise04\obj\Debug\netcoreapp2.1\Exercise04.AssemblyInfo.cs
+C:\Users\하연\Desktop\공부\2학년\수업\C#\FlowControl\Exercise04\obj\Debug\netcoreapp2.1\Exercise04.dll
+C:\Users\하연\Desktop\공부\2학년\수업\C#\FlowControl\Exercise04\obj\Debug\netcoreapp2.1\Exercise04.pdb

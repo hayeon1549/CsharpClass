@@ -1,0 +1,10 @@
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Class03_DeepCopy\bin\Debug\netcoreapp2.1\Class03_DeepCopy.deps.json
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Class03_DeepCopy\bin\Debug\netcoreapp2.1\Class03_DeepCopy.runtimeconfig.json
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Class03_DeepCopy\bin\Debug\netcoreapp2.1\Class03_DeepCopy.runtimeconfig.dev.json
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Class03_DeepCopy\bin\Debug\netcoreapp2.1\Class03_DeepCopy.dll
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Class03_DeepCopy\bin\Debug\netcoreapp2.1\Class03_DeepCopy.pdb
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Class03_DeepCopy\obj\Debug\netcoreapp2.1\Class03_DeepCopy.csproj.CoreCompileInputs.cache
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Class03_DeepCopy\obj\Debug\netcoreapp2.1\Class03_DeepCopy.AssemblyInfoInputs.cache
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Class03_DeepCopy\obj\Debug\netcoreapp2.1\Class03_DeepCopy.AssemblyInfo.cs
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Class03_DeepCopy\obj\Debug\netcoreapp2.1\Class03_DeepCopy.dll
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Class03_DeepCopy\obj\Debug\netcoreapp2.1\Class03_DeepCopy.pdb

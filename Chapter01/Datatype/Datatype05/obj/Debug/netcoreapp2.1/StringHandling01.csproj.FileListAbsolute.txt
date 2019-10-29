@@ -1,0 +1,10 @@
+C:\Users\하연\source\repos\Datatype\Datatype05\bin\Debug\netcoreapp2.1\StringHandling01.deps.json
+C:\Users\하연\source\repos\Datatype\Datatype05\bin\Debug\netcoreapp2.1\StringHandling01.runtimeconfig.json
+C:\Users\하연\source\repos\Datatype\Datatype05\bin\Debug\netcoreapp2.1\StringHandling01.runtimeconfig.dev.json
+C:\Users\하연\source\repos\Datatype\Datatype05\bin\Debug\netcoreapp2.1\StringHandling01.dll
+C:\Users\하연\source\repos\Datatype\Datatype05\bin\Debug\netcoreapp2.1\StringHandling01.pdb
+C:\Users\하연\source\repos\Datatype\Datatype05\obj\Debug\netcoreapp2.1\StringHandling01.csproj.CoreCompileInputs.cache
+C:\Users\하연\source\repos\Datatype\Datatype05\obj\Debug\netcoreapp2.1\StringHandling01.AssemblyInfoInputs.cache
+C:\Users\하연\source\repos\Datatype\Datatype05\obj\Debug\netcoreapp2.1\StringHandling01.AssemblyInfo.cs
+C:\Users\하연\source\repos\Datatype\Datatype05\obj\Debug\netcoreapp2.1\StringHandling01.dll
+C:\Users\하연\source\repos\Datatype\Datatype05\obj\Debug\netcoreapp2.1\StringHandling01.pdb

@@ -1,0 +1,10 @@
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Class09_NestedClass\obj\Debug\netcoreapp2.1\Class09_NestedClass.csproj.CoreCompileInputs.cache
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Class09_NestedClass\obj\Debug\netcoreapp2.1\Class09_NestedClass.AssemblyInfoInputs.cache
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Class09_NestedClass\obj\Debug\netcoreapp2.1\Class09_NestedClass.AssemblyInfo.cs
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Class09_NestedClass\bin\Debug\netcoreapp2.1\Class09_NestedClass.deps.json
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Class09_NestedClass\bin\Debug\netcoreapp2.1\Class09_NestedClass.runtimeconfig.json
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Class09_NestedClass\bin\Debug\netcoreapp2.1\Class09_NestedClass.runtimeconfig.dev.json
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Class09_NestedClass\bin\Debug\netcoreapp2.1\Class09_NestedClass.dll
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Class09_NestedClass\bin\Debug\netcoreapp2.1\Class09_NestedClass.pdb
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Class09_NestedClass\obj\Debug\netcoreapp2.1\Class09_NestedClass.dll
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Class\Class09_NestedClass\obj\Debug\netcoreapp2.1\Class09_NestedClass.pdb

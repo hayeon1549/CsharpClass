@@ -1,0 +1,11 @@
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Interface\Interface01\bin\Debug\netcoreapp2.1\Interface01.deps.json
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Interface\Interface01\bin\Debug\netcoreapp2.1\Interface01.runtimeconfig.json
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Interface\Interface01\bin\Debug\netcoreapp2.1\Interface01.runtimeconfig.dev.json
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Interface\Interface01\bin\Debug\netcoreapp2.1\Interface01.dll
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Interface\Interface01\bin\Debug\netcoreapp2.1\Interface01.pdb
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Interface\Interface01\obj\Debug\netcoreapp2.1\Interface01.csprojAssemblyReference.cache
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Interface\Interface01\obj\Debug\netcoreapp2.1\Interface01.csproj.CoreCompileInputs.cache
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Interface\Interface01\obj\Debug\netcoreapp2.1\Interface01.AssemblyInfoInputs.cache
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Interface\Interface01\obj\Debug\netcoreapp2.1\Interface01.AssemblyInfo.cs
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Interface\Interface01\obj\Debug\netcoreapp2.1\Interface01.dll
+C:\Users\하연\Desktop\공부\2학년\수업\C#\Interface\Interface01\obj\Debug\netcoreapp2.1\Interface01.pdb

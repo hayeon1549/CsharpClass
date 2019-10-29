@@ -1,0 +1,10 @@
+C:\Users\하연\source\repos\Datatype\Exerxise02\bin\Debug\netcoreapp2.1\Exerxise02.deps.json
+C:\Users\하연\source\repos\Datatype\Exerxise02\bin\Debug\netcoreapp2.1\Exerxise02.runtimeconfig.json
+C:\Users\하연\source\repos\Datatype\Exerxise02\bin\Debug\netcoreapp2.1\Exerxise02.runtimeconfig.dev.json
+C:\Users\하연\source\repos\Datatype\Exerxise02\bin\Debug\netcoreapp2.1\Exerxise02.dll
+C:\Users\하연\source\repos\Datatype\Exerxise02\bin\Debug\netcoreapp2.1\Exerxise02.pdb
+C:\Users\하연\source\repos\Datatype\Exerxise02\obj\Debug\netcoreapp2.1\Exerxise02.csproj.CoreCompileInputs.cache
+C:\Users\하연\source\repos\Datatype\Exerxise02\obj\Debug\netcoreapp2.1\Exerxise02.AssemblyInfoInputs.cache
+C:\Users\하연\source\repos\Datatype\Exerxise02\obj\Debug\netcoreapp2.1\Exerxise02.AssemblyInfo.cs
+C:\Users\하연\source\repos\Datatype\Exerxise02\obj\Debug\netcoreapp2.1\Exerxise02.dll
+C:\Users\하연\source\repos\Datatype\Exerxise02\obj\Debug\netcoreapp2.1\Exerxise02.pdb
