@@ -1,0 +1,10 @@
+C:\Users\하연\source\repos\Thread\Task09_AsyncAPI\bin\Debug\netcoreapp2.1\Task09_AsyncAPI.deps.json
+C:\Users\하연\source\repos\Thread\Task09_AsyncAPI\bin\Debug\netcoreapp2.1\Task09_AsyncAPI.runtimeconfig.json
+C:\Users\하연\source\repos\Thread\Task09_AsyncAPI\bin\Debug\netcoreapp2.1\Task09_AsyncAPI.runtimeconfig.dev.json
+C:\Users\하연\source\repos\Thread\Task09_AsyncAPI\bin\Debug\netcoreapp2.1\Task09_AsyncAPI.dll
+C:\Users\하연\source\repos\Thread\Task09_AsyncAPI\bin\Debug\netcoreapp2.1\Task09_AsyncAPI.pdb
+C:\Users\하연\source\repos\Thread\Task09_AsyncAPI\obj\Debug\netcoreapp2.1\Task09_AsyncAPI.csproj.CoreCompileInputs.cache
+C:\Users\하연\source\repos\Thread\Task09_AsyncAPI\obj\Debug\netcoreapp2.1\Task09_AsyncAPI.AssemblyInfoInputs.cache
+C:\Users\하연\source\repos\Thread\Task09_AsyncAPI\obj\Debug\netcoreapp2.1\Task09_AsyncAPI.AssemblyInfo.cs
+C:\Users\하연\source\repos\Thread\Task09_AsyncAPI\obj\Debug\netcoreapp2.1\Task09_AsyncAPI.dll
+C:\Users\하연\source\repos\Thread\Task09_AsyncAPI\obj\Debug\netcoreapp2.1\Task09_AsyncAPI.pdb

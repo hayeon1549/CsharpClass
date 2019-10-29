@@ -1,0 +1,4 @@
+C:\Users\하연\source\repos\Thread\Task08_MakeBreakfast02_Async\obj\Debug\netcoreapp2.1\Task08_MakeBreakfast02_Async.csprojAssemblyReference.cache
+C:\Users\하연\source\repos\Thread\Task08_MakeBreakfast02_Async\obj\Debug\netcoreapp2.1\Task08_MakeBreakfast02_Async.csproj.CoreCompileInputs.cache
+C:\Users\하연\source\repos\Thread\Task08_MakeBreakfast02_Async\obj\Debug\netcoreapp2.1\Task08_MakeBreakfast02_Async.AssemblyInfoInputs.cache
+C:\Users\하연\source\repos\Thread\Task08_MakeBreakfast02_Async\obj\Debug\netcoreapp2.1\Task08_MakeBreakfast02_Async.AssemblyInfo.cs

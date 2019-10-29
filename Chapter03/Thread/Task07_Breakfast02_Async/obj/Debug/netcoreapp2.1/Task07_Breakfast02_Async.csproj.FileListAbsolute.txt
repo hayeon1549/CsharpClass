@@ -1,0 +1,10 @@
+C:\Users\하연\source\repos\Thread\Task07_Breakfast02_Async\bin\Debug\netcoreapp2.1\Task07_Breakfast02_Async.deps.json
+C:\Users\하연\source\repos\Thread\Task07_Breakfast02_Async\bin\Debug\netcoreapp2.1\Task07_Breakfast02_Async.runtimeconfig.json
+C:\Users\하연\source\repos\Thread\Task07_Breakfast02_Async\bin\Debug\netcoreapp2.1\Task07_Breakfast02_Async.runtimeconfig.dev.json
+C:\Users\하연\source\repos\Thread\Task07_Breakfast02_Async\bin\Debug\netcoreapp2.1\Task07_Breakfast02_Async.dll
+C:\Users\하연\source\repos\Thread\Task07_Breakfast02_Async\bin\Debug\netcoreapp2.1\Task07_Breakfast02_Async.pdb
+C:\Users\하연\source\repos\Thread\Task07_Breakfast02_Async\obj\Debug\netcoreapp2.1\Task07_Breakfast02_Async.csproj.CoreCompileInputs.cache
+C:\Users\하연\source\repos\Thread\Task07_Breakfast02_Async\obj\Debug\netcoreapp2.1\Task07_Breakfast02_Async.AssemblyInfoInputs.cache
+C:\Users\하연\source\repos\Thread\Task07_Breakfast02_Async\obj\Debug\netcoreapp2.1\Task07_Breakfast02_Async.AssemblyInfo.cs
+C:\Users\하연\source\repos\Thread\Task07_Breakfast02_Async\obj\Debug\netcoreapp2.1\Task07_Breakfast02_Async.dll
+C:\Users\하연\source\repos\Thread\Task07_Breakfast02_Async\obj\Debug\netcoreapp2.1\Task07_Breakfast02_Async.pdb

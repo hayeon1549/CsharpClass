@@ -1,0 +1,11 @@
+C:\Users\하연\source\repos\Thread\Thread01\bin\Debug\netcoreapp2.1\Thread01.deps.json
+C:\Users\하연\source\repos\Thread\Thread01\bin\Debug\netcoreapp2.1\Thread01.runtimeconfig.json
+C:\Users\하연\source\repos\Thread\Thread01\bin\Debug\netcoreapp2.1\Thread01.runtimeconfig.dev.json
+C:\Users\하연\source\repos\Thread\Thread01\bin\Debug\netcoreapp2.1\Thread01.dll
+C:\Users\하연\source\repos\Thread\Thread01\bin\Debug\netcoreapp2.1\Thread01.pdb
+C:\Users\하연\source\repos\Thread\Thread01\obj\Debug\netcoreapp2.1\Thread01.csprojAssemblyReference.cache
+C:\Users\하연\source\repos\Thread\Thread01\obj\Debug\netcoreapp2.1\Thread01.csproj.CoreCompileInputs.cache
+C:\Users\하연\source\repos\Thread\Thread01\obj\Debug\netcoreapp2.1\Thread01.AssemblyInfoInputs.cache
+C:\Users\하연\source\repos\Thread\Thread01\obj\Debug\netcoreapp2.1\Thread01.AssemblyInfo.cs
+C:\Users\하연\source\repos\Thread\Thread01\obj\Debug\netcoreapp2.1\Thread01.dll
+C:\Users\하연\source\repos\Thread\Thread01\obj\Debug\netcoreapp2.1\Thread01.pdb
