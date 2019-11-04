@@ -1,14 +1,17 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
-
-// 파일을 복사하고 파일의 크기를 반환한다.
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+// 파일을 복사하고, 파일의 크기를 반환한다.
 namespace Task09_AsyncAPI
 {
     class Program
     {
         static void Main(string[] args)
         {
-            string path = @"C:\Users\하연\Desktop\공부\2학년\수업\C#";
+            string path = @"D:\CSharpWorkspace";
 
             // 파일 생성 및 텍스트 기록
             CreateFile(path + @"\source.txt");
@@ -20,11 +23,16 @@ namespace Task09_AsyncAPI
 
             #region 비동기식 파일 복제
             // 1. StreamReader, StreamWriter 사용
-            CopyAsync(path + @"\source.txt", path + @"\target1.txt");
+            Task<int> copyTask = CopyAsync(path + @"\source.txt", path + @"\target2.txt");
+            var copyTask2 = CopyAsync(path + @"\source.txt", path + @"\target3.txt");
             #endregion
+
+            Console.WriteLine("메인 스레드 종료");
+            Console.WriteLine($"Copied Total: {copyTask.Result} Bytes");
+            Console.WriteLine($"Copied Total: {copyTask2.Result} Bytes");
         }
 
-        private static void CopyAsync(string fromPath, string toPath)
+        async private static Task<int> CopyAsync(string fromPath, string toPath)
         {
             using (var sr = new StreamReader(fromPath))
             {
@@ -32,20 +40,22 @@ namespace Task09_AsyncAPI
                 {
                     string line;
                     line = await sr.ReadToEndAsync();
+                    await sw.WriteAsync(line);
+                    return line.Length;
                 }
             }
         }
 
         private static int CopySync(string fromPath, string toPath)
         {
-            using (StreamWriter sr = new StreamWriter(fromPath)) // source.txt
+            using (StreamReader sr = new StreamReader(fromPath))  // source.txt
             {
-                using (StreamWriter sw = new StreamWriter(toPath)) // target1.txt
+                using (StreamWriter sw = new StreamWriter(toPath))  // target1.txt
                 {
                     string line;
                     line = sr.ReadToEnd();
                     sw.Write(line);
-                    return line.Length; // 복사한 글자 길이 반환
+                    return line.Length;  // 복사한 글자 길이 반환
                 }
             }
         }
@@ -56,6 +66,7 @@ namespace Task09_AsyncAPI
             {
                 sw.Write("Hello World");
             }
+
         }
     }
 }

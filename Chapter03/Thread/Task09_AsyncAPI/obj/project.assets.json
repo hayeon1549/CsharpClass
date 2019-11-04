@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\하연\\source\\repos\\Thread\\Task09_AsyncAPI\\Task09_AsyncAPI.csproj",
+      "projectUniqueName": "C:\\Users\\하연\\Desktop\\공부\\2학년\\수업\\C#\\C-class\\Chapter03\\Thread\\Task09_AsyncAPI\\Task09_AsyncAPI.csproj",
       "projectName": "Task09_AsyncAPI",
-      "projectPath": "C:\\Users\\하연\\source\\repos\\Thread\\Task09_AsyncAPI\\Task09_AsyncAPI.csproj",
+      "projectPath": "C:\\Users\\하연\\Desktop\\공부\\2학년\\수업\\C#\\C-class\\Chapter03\\Thread\\Task09_AsyncAPI\\Task09_AsyncAPI.csproj",
       "packagesPath": "C:\\Users\\하연\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\하연\\source\\repos\\Thread\\Task09_AsyncAPI\\obj\\",
+      "outputPath": "C:\\Users\\하연\\Desktop\\공부\\2학년\\수업\\C#\\C-class\\Chapter03\\Thread\\Task09_AsyncAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

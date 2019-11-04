@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -63,7 +64,7 @@ namespace Task08_MakeBreakfast02_Async
             Console.WriteLine("Breakfast is ready!");
 
             DateTime endTime = DateTime.Now;
-            TimeSpan elapsed = endTime - startTime; // 두 날짜 사이의 시간 간격 저장
+            TimeSpan elapsed = endTime - startTime;  // 두 날짜 사이의 시간 간격 저장
             Console.WriteLine($"실행 시간: {elapsed}");
         }
 
@@ -122,7 +123,7 @@ namespace Task08_MakeBreakfast02_Async
         private static Juice PourOJ()
         {
             Console.WriteLine("오렌지 주스를 따른다.");
-            Thread.Sleep(1000); // new Random().Next(1000, 2000)
+            Thread.Sleep(1000);  // new Random().Next(1000, 2000)
             return new Juice();
         }
 

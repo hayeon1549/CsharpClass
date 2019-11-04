@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\하연\\source\\repos\\Thread\\Thread05_lock\\Thread05_lock.csproj",
+      "projectUniqueName": "C:\\Users\\하연\\Desktop\\공부\\2학년\\수업\\C#\\C-class\\Chapter03\\Thread\\Thread05_lock\\Thread05_lock.csproj",
       "projectName": "Thread05_lock",
-      "projectPath": "C:\\Users\\하연\\source\\repos\\Thread\\Thread05_lock\\Thread05_lock.csproj",
+      "projectPath": "C:\\Users\\하연\\Desktop\\공부\\2학년\\수업\\C#\\C-class\\Chapter03\\Thread\\Thread05_lock\\Thread05_lock.csproj",
       "packagesPath": "C:\\Users\\하연\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\하연\\source\\repos\\Thread\\Thread05_lock\\obj\\",
+      "outputPath": "C:\\Users\\하연\\Desktop\\공부\\2학년\\수업\\C#\\C-class\\Chapter03\\Thread\\Thread05_lock\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

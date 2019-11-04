@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\하연\\source\\repos\\Thread\\Thread02\\Thread02.csproj",
+      "projectUniqueName": "C:\\Users\\하연\\Desktop\\공부\\2학년\\수업\\C#\\C-class\\Chapter03\\Thread\\Thread02\\Thread02.csproj",
       "projectName": "Thread02",
-      "projectPath": "C:\\Users\\하연\\source\\repos\\Thread\\Thread02\\Thread02.csproj",
+      "projectPath": "C:\\Users\\하연\\Desktop\\공부\\2학년\\수업\\C#\\C-class\\Chapter03\\Thread\\Thread02\\Thread02.csproj",
       "packagesPath": "C:\\Users\\하연\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\하연\\source\\repos\\Thread\\Thread02\\obj\\",
+      "outputPath": "C:\\Users\\하연\\Desktop\\공부\\2학년\\수업\\C#\\C-class\\Chapter03\\Thread\\Thread02\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

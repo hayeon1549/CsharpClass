@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\하연\\source\\repos\\Thread\\Task06_MakeBreakfast01_Sync\\Task06_MakeBreakfast01_Sync.csproj",
+      "projectUniqueName": "C:\\Users\\하연\\Desktop\\공부\\2학년\\수업\\C#\\C-class\\Chapter03\\Thread\\Task06_MakeBreakfast01_Sync\\Task06_MakeBreakfast01_Sync.csproj",
       "projectName": "Task06_MakeBreakfast01_Sync",
-      "projectPath": "C:\\Users\\하연\\source\\repos\\Thread\\Task06_MakeBreakfast01_Sync\\Task06_MakeBreakfast01_Sync.csproj",
+      "projectPath": "C:\\Users\\하연\\Desktop\\공부\\2학년\\수업\\C#\\C-class\\Chapter03\\Thread\\Task06_MakeBreakfast01_Sync\\Task06_MakeBreakfast01_Sync.csproj",
       "packagesPath": "C:\\Users\\하연\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\하연\\source\\repos\\Thread\\Task06_MakeBreakfast01_Sync\\obj\\",
+      "outputPath": "C:\\Users\\하연\\Desktop\\공부\\2학년\\수업\\C#\\C-class\\Chapter03\\Thread\\Task06_MakeBreakfast01_Sync\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

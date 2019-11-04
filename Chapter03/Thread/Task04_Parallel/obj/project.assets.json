@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\하연\\source\\repos\\Thread\\Task04_Parallel\\Task04_Parallel.csproj",
+      "projectUniqueName": "C:\\Users\\하연\\Desktop\\공부\\2학년\\수업\\C#\\C-class\\Chapter03\\Thread\\Task04_Parallel\\Task04_Parallel.csproj",
       "projectName": "Task04_Parallel",
-      "projectPath": "C:\\Users\\하연\\source\\repos\\Thread\\Task04_Parallel\\Task04_Parallel.csproj",
+      "projectPath": "C:\\Users\\하연\\Desktop\\공부\\2학년\\수업\\C#\\C-class\\Chapter03\\Thread\\Task04_Parallel\\Task04_Parallel.csproj",
       "packagesPath": "C:\\Users\\하연\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\하연\\source\\repos\\Thread\\Task04_Parallel\\obj\\",
+      "outputPath": "C:\\Users\\하연\\Desktop\\공부\\2학년\\수업\\C#\\C-class\\Chapter03\\Thread\\Task04_Parallel\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
