@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.779
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinForm02_HelloWorld", "WinForm02_HelloWorld\WinForm02_HelloWorld.csproj", "{8D5EA6FC-6B8C-422B-8B12-4B70B1F6B506}"
 EndProject
@@ -14,6 +14,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinForm05_ComboBox", "WinForm05_ComboBox\WinForm05_ComboBox.csproj", "{97DC4E26-FF52-4C39-A3FB-F8DD3CD428BC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinForm06_Timer", "WinForm06_Timer\WinForm06_Timer.csproj", "{435D4E3B-BC8E-423D-BE1B-EBAC80E4C8C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinForm08_MenuAndTap", "WinForm08_MenuAndTap\WinForm08_MenuAndTap.csproj", "{DBF837D6-2142-4A0F-8871-FF6EB7C82E15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinForm07_ProgressBar", "WinForm07_ProgressBar\WinForm07_ProgressBar.csproj", "{58E8F635-2CDA-41AD-BC4B-57B75BC1A7AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinForm09_ListView", "WinForm09_ListView\WinForm09_ListView.csproj", "{C0C49D63-8F4C-48D8-BEF8-C5F219271F6F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +51,18 @@ Global
 		{435D4E3B-BC8E-423D-BE1B-EBAC80E4C8C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{435D4E3B-BC8E-423D-BE1B-EBAC80E4C8C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{435D4E3B-BC8E-423D-BE1B-EBAC80E4C8C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBF837D6-2142-4A0F-8871-FF6EB7C82E15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBF837D6-2142-4A0F-8871-FF6EB7C82E15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBF837D6-2142-4A0F-8871-FF6EB7C82E15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBF837D6-2142-4A0F-8871-FF6EB7C82E15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58E8F635-2CDA-41AD-BC4B-57B75BC1A7AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58E8F635-2CDA-41AD-BC4B-57B75BC1A7AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58E8F635-2CDA-41AD-BC4B-57B75BC1A7AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58E8F635-2CDA-41AD-BC4B-57B75BC1A7AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0C49D63-8F4C-48D8-BEF8-C5F219271F6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0C49D63-8F4C-48D8-BEF8-C5F219271F6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0C49D63-8F4C-48D8-BEF8-C5F219271F6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0C49D63-8F4C-48D8-BEF8-C5F219271F6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
