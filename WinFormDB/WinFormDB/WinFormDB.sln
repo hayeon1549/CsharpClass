@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormDB01", "WinFormDB01\WinFormDB01.csproj", "{6F0540A1-76CF-45D2-898C-7F29DC64E92F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F0540A1-76CF-45D2-898C-7F29DC64E92F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F0540A1-76CF-45D2-898C-7F29DC64E92F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F0540A1-76CF-45D2-898C-7F29DC64E92F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F0540A1-76CF-45D2-898C-7F29DC64E92F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29EC978A-39B6-437F-90CC-3230F5FD70F3}
+	EndGlobalSection
+EndGlobal
