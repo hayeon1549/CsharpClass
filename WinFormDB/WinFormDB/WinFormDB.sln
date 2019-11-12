@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormDB01", "WinFormDB01\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormDB02_DataReader", "WinFormDB02_DataReader\WinFormDB02_DataReader.csproj", "{3403426E-716D-43A0-B634-B4FFC7968278}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormDB03_CRUD", "WinFormDB03_CRUD\WinFormDB03_CRUD.csproj", "{6EA1CEB2-4F45-4028-84E4-5AB9D0F54CC7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{3403426E-716D-43A0-B634-B4FFC7968278}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3403426E-716D-43A0-B634-B4FFC7968278}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3403426E-716D-43A0-B634-B4FFC7968278}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EA1CEB2-4F45-4028-84E4-5AB9D0F54CC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EA1CEB2-4F45-4028-84E4-5AB9D0F54CC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EA1CEB2-4F45-4028-84E4-5AB9D0F54CC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EA1CEB2-4F45-4028-84E4-5AB9D0F54CC7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
