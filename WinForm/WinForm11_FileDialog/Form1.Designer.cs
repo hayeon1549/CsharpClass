@@ -1,4 +1,4 @@
-﻿namespace WinForm11_FileDialog
+﻿namespace WinForm09_ListView
 {
     partial class Form1
     {
