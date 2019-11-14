@@ -28,6 +28,7 @@ namespace WinFormDB02_DataReader
             {
                 // 2. DB 열기
                 conn.Open();
+                ShowDBConnectionState();
 
                 // 3. SELECT 쿼리 객체 준비
                 string queryString = "select distinct continent from country";
@@ -41,10 +42,24 @@ namespace WinFormDB02_DataReader
                 {
                     comboBox1.Items.Add(reader.GetString("continent"));
                 }
+                reader.Close();
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
+            }
+        }
+        private void ShowDBConnectionState()
+        {
+            if (conn.State == ConnectionState.Open)
+            {
+                label1.Text = "Connected";
+                label1.ForeColor = Color.Green;
+            }
+            else
+            {
+                label1.Text = "Not Connected";
+                label1.ForeColor = Color.Red;
             }
         }
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
