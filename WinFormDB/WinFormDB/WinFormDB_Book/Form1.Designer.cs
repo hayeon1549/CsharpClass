@@ -29,8 +29,11 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.price2 = new System.Windows.Forms.TextBox();
             this.label_book = new System.Windows.Forms.Label();
-            this.price = new System.Windows.Forms.TextBox();
+            this.price1 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.publisher = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -43,22 +46,23 @@
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.labeel_customer = new System.Windows.Forms.Label();
+            this.label_customer = new System.Windows.Forms.Label();
             this.phone = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.adress = new System.Windows.Forms.TextBox();
+            this.address = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.name = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.custid = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.orderdate = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label_orders = new System.Windows.Forms.Label();
-            this.saleprice = new System.Windows.Forms.TextBox();
             this.f_bookid = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.f_custid = new System.Windows.Forms.TextBox();
@@ -67,9 +71,13 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.rbBook = new System.Windows.Forms.RadioButton();
-            this.rbCustomer = new System.Windows.Forms.RadioButton();
             this.rbOrders = new System.Windows.Forms.RadioButton();
+            this.rbCustomer = new System.Windows.Forms.RadioButton();
+            this.rbBook = new System.Windows.Forms.RadioButton();
+            this.clear = new System.Windows.Forms.Button();
+            this.label17 = new System.Windows.Forms.Label();
+            this.saleprice2 = new System.Windows.Forms.TextBox();
+            this.saleprice1 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -80,8 +88,11 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.label15);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.price2);
             this.panel1.Controls.Add(this.label_book);
-            this.panel1.Controls.Add(this.price);
+            this.panel1.Controls.Add(this.price1);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.publisher);
             this.panel1.Controls.Add(this.label4);
@@ -89,10 +100,35 @@
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.bookid);
             this.panel1.Controls.Add(this.lable1);
-            this.panel1.Location = new System.Drawing.Point(28, 24);
+            this.panel1.Location = new System.Drawing.Point(28, 22);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(281, 174);
+            this.panel1.Size = new System.Drawing.Size(281, 189);
             this.panel1.TabIndex = 0;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(91, 167);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(104, 15);
+            this.label15.TabIndex = 10;
+            this.label15.Text = "Insert / Update";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(173, 143);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(25, 15);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "<=";
+            // 
+            // price2
+            // 
+            this.price2.Location = new System.Drawing.Point(203, 139);
+            this.price2.Name = "price2";
+            this.price2.Size = new System.Drawing.Size(67, 25);
+            this.price2.TabIndex = 8;
             // 
             // label_book
             // 
@@ -104,12 +140,12 @@
             this.label_book.TabIndex = 7;
             this.label_book.Text = "BOOK";
             // 
-            // price
+            // price1
             // 
-            this.price.Location = new System.Drawing.Point(105, 139);
-            this.price.Name = "price";
-            this.price.Size = new System.Drawing.Size(165, 25);
-            this.price.TabIndex = 7;
+            this.price1.Location = new System.Drawing.Point(105, 139);
+            this.price1.Name = "price1";
+            this.price1.Size = new System.Drawing.Size(67, 25);
+            this.price1.TabIndex = 7;
             // 
             // label3
             // 
@@ -170,9 +206,9 @@
             // 
             // btnSelect
             // 
-            this.btnSelect.Location = new System.Drawing.Point(33, 26);
+            this.btnSelect.Location = new System.Drawing.Point(0, 8);
             this.btnSelect.Name = "btnSelect";
-            this.btnSelect.Size = new System.Drawing.Size(161, 62);
+            this.btnSelect.Size = new System.Drawing.Size(122, 46);
             this.btnSelect.TabIndex = 1;
             this.btnSelect.Text = "SELECT";
             this.btnSelect.UseVisualStyleBackColor = true;
@@ -180,9 +216,9 @@
             // 
             // btnInsert
             // 
-            this.btnInsert.Location = new System.Drawing.Point(227, 27);
+            this.btnInsert.Location = new System.Drawing.Point(128, 8);
             this.btnInsert.Name = "btnInsert";
-            this.btnInsert.Size = new System.Drawing.Size(161, 62);
+            this.btnInsert.Size = new System.Drawing.Size(122, 46);
             this.btnInsert.TabIndex = 2;
             this.btnInsert.Text = "INSERT";
             this.btnInsert.UseVisualStyleBackColor = true;
@@ -190,9 +226,9 @@
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(33, 112);
+            this.btnUpdate.Location = new System.Drawing.Point(256, 8);
             this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(161, 62);
+            this.btnUpdate.Size = new System.Drawing.Size(122, 46);
             this.btnUpdate.TabIndex = 3;
             this.btnUpdate.Text = "UPDATE";
             this.btnUpdate.UseVisualStyleBackColor = true;
@@ -200,9 +236,9 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(227, 112);
+            this.btnDelete.Location = new System.Drawing.Point(384, 8);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(161, 62);
+            this.btnDelete.Size = new System.Drawing.Size(122, 46);
             this.btnDelete.TabIndex = 4;
             this.btnDelete.Text = "DELETE";
             this.btnDelete.UseVisualStyleBackColor = true;
@@ -210,29 +246,29 @@
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.labeel_customer);
+            this.panel2.Controls.Add(this.label_customer);
             this.panel2.Controls.Add(this.phone);
             this.panel2.Controls.Add(this.label7);
-            this.panel2.Controls.Add(this.adress);
+            this.panel2.Controls.Add(this.address);
             this.panel2.Controls.Add(this.label8);
-            this.panel2.Controls.Add(this.textBox7);
+            this.panel2.Controls.Add(this.name);
             this.panel2.Controls.Add(this.label6);
             this.panel2.Controls.Add(this.custid);
             this.panel2.Controls.Add(this.label5);
-            this.panel2.Location = new System.Drawing.Point(28, 246);
+            this.panel2.Location = new System.Drawing.Point(28, 239);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(281, 174);
             this.panel2.TabIndex = 8;
             // 
-            // labeel_customer
+            // label_customer
             // 
-            this.labeel_customer.AutoSize = true;
-            this.labeel_customer.Font = new System.Drawing.Font("굴림", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.labeel_customer.Location = new System.Drawing.Point(5, 10);
-            this.labeel_customer.Name = "labeel_customer";
-            this.labeel_customer.Size = new System.Drawing.Size(141, 24);
-            this.labeel_customer.TabIndex = 7;
-            this.labeel_customer.Text = "CUSTOMER";
+            this.label_customer.AutoSize = true;
+            this.label_customer.Font = new System.Drawing.Font("굴림", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label_customer.Location = new System.Drawing.Point(5, 10);
+            this.label_customer.Name = "label_customer";
+            this.label_customer.Size = new System.Drawing.Size(141, 24);
+            this.label_customer.TabIndex = 7;
+            this.label_customer.Text = "CUSTOMER";
             // 
             // phone
             // 
@@ -244,18 +280,18 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(37, 111);
+            this.label7.Location = new System.Drawing.Point(29, 111);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(52, 15);
+            this.label7.Size = new System.Drawing.Size(60, 15);
             this.label7.TabIndex = 6;
-            this.label7.Text = "Adress";
+            this.label7.Text = "Address";
             // 
-            // adress
+            // address
             // 
-            this.adress.Location = new System.Drawing.Point(105, 108);
-            this.adress.Name = "adress";
-            this.adress.Size = new System.Drawing.Size(165, 25);
-            this.adress.TabIndex = 5;
+            this.address.Location = new System.Drawing.Point(105, 108);
+            this.address.Name = "address";
+            this.address.Size = new System.Drawing.Size(165, 25);
+            this.address.TabIndex = 5;
             // 
             // label8
             // 
@@ -266,12 +302,12 @@
             this.label8.TabIndex = 4;
             this.label8.Text = "Phone";
             // 
-            // textBox7
+            // name
             // 
-            this.textBox7.Location = new System.Drawing.Point(105, 77);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(165, 25);
-            this.textBox7.TabIndex = 3;
+            this.name.Location = new System.Drawing.Point(105, 77);
+            this.name.Name = "name";
+            this.name.Size = new System.Drawing.Size(165, 25);
+            this.name.TabIndex = 3;
             // 
             // label6
             // 
@@ -300,33 +336,54 @@
             // 
             // panel3
             // 
+            this.panel3.Controls.Add(this.label17);
             this.panel3.Controls.Add(this.orderdate);
+            this.panel3.Controls.Add(this.saleprice2);
+            this.panel3.Controls.Add(this.label16);
+            this.panel3.Controls.Add(this.saleprice1);
+            this.panel3.Controls.Add(this.label14);
             this.panel3.Controls.Add(this.label13);
             this.panel3.Controls.Add(this.label9);
             this.panel3.Controls.Add(this.label10);
             this.panel3.Controls.Add(this.label_orders);
-            this.panel3.Controls.Add(this.saleprice);
             this.panel3.Controls.Add(this.f_bookid);
             this.panel3.Controls.Add(this.label12);
             this.panel3.Controls.Add(this.f_custid);
             this.panel3.Controls.Add(this.orderid);
             this.panel3.Controls.Add(this.label11);
-            this.panel3.Location = new System.Drawing.Point(28, 461);
+            this.panel3.Location = new System.Drawing.Point(28, 444);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(283, 204);
+            this.panel3.Size = new System.Drawing.Size(283, 221);
             this.panel3.TabIndex = 8;
             // 
             // orderdate
             // 
-            this.orderdate.Location = new System.Drawing.Point(105, 170);
+            this.orderdate.Location = new System.Drawing.Point(105, 189);
             this.orderdate.Name = "orderdate";
             this.orderdate.Size = new System.Drawing.Size(165, 25);
-            this.orderdate.TabIndex = 11;
+            this.orderdate.TabIndex = 12;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(91, 167);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(104, 15);
+            this.label16.TabIndex = 11;
+            this.label16.Text = "Insert / Update";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(178, 142);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(0, 15);
+            this.label14.TabIndex = 10;
             // 
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(15, 173);
+            this.label13.Location = new System.Drawing.Point(15, 192);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(78, 15);
             this.label13.TabIndex = 10;
@@ -359,13 +416,6 @@
             this.label_orders.Size = new System.Drawing.Size(107, 24);
             this.label_orders.TabIndex = 7;
             this.label_orders.Text = "ORDERS";
-            // 
-            // saleprice
-            // 
-            this.saleprice.Location = new System.Drawing.Point(105, 139);
-            this.saleprice.Name = "saleprice";
-            this.saleprice.Size = new System.Drawing.Size(165, 25);
-            this.saleprice.TabIndex = 7;
             // 
             // f_bookid
             // 
@@ -412,22 +462,23 @@
             this.panel4.Controls.Add(this.btnUpdate);
             this.panel4.Controls.Add(this.btnInsert);
             this.panel4.Controls.Add(this.btnSelect);
-            this.panel4.Location = new System.Drawing.Point(333, 461);
+            this.panel4.Location = new System.Drawing.Point(321, 604);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(420, 204);
+            this.panel4.Size = new System.Drawing.Size(506, 61);
             this.panel4.TabIndex = 9;
             // 
             // dataGridView1
             // 
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(333, 104);
+            this.dataGridView1.Location = new System.Drawing.Point(333, 115);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 27;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(420, 343);
+            this.dataGridView1.Size = new System.Drawing.Size(481, 455);
             this.dataGridView1.TabIndex = 10;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
             // groupBox1
             // 
@@ -437,10 +488,34 @@
             this.groupBox1.Font = new System.Drawing.Font("굴림", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.groupBox1.Location = new System.Drawing.Point(333, 22);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(420, 66);
+            this.groupBox1.Size = new System.Drawing.Size(353, 64);
             this.groupBox1.TabIndex = 11;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Table";
+            // 
+            // rbOrders
+            // 
+            this.rbOrders.AutoSize = true;
+            this.rbOrders.Location = new System.Drawing.Point(253, 28);
+            this.rbOrders.Name = "rbOrders";
+            this.rbOrders.Size = new System.Drawing.Size(91, 21);
+            this.rbOrders.TabIndex = 2;
+            this.rbOrders.TabStop = true;
+            this.rbOrders.Text = "ORDERS";
+            this.rbOrders.UseVisualStyleBackColor = true;
+            this.rbOrders.CheckedChanged += new System.EventHandler(this.rbOrders_CheckedChanged);
+            // 
+            // rbCustomer
+            // 
+            this.rbCustomer.AutoSize = true;
+            this.rbCustomer.Location = new System.Drawing.Point(123, 28);
+            this.rbCustomer.Name = "rbCustomer";
+            this.rbCustomer.Size = new System.Drawing.Size(115, 21);
+            this.rbCustomer.TabIndex = 1;
+            this.rbCustomer.TabStop = true;
+            this.rbCustomer.Text = "CUSTOMER";
+            this.rbCustomer.UseVisualStyleBackColor = true;
+            this.rbCustomer.CheckedChanged += new System.EventHandler(this.rbCustomer_CheckedChanged);
             // 
             // rbBook
             // 
@@ -452,34 +527,47 @@
             this.rbBook.TabStop = true;
             this.rbBook.Text = "BOOK";
             this.rbBook.UseVisualStyleBackColor = true;
+            this.rbBook.CheckedChanged += new System.EventHandler(this.rbBook_CheckedChanged);
             // 
-            // rbCustomer
+            // clear
             // 
-            this.rbCustomer.AutoSize = true;
-            this.rbCustomer.Location = new System.Drawing.Point(146, 28);
-            this.rbCustomer.Name = "rbCustomer";
-            this.rbCustomer.Size = new System.Drawing.Size(115, 21);
-            this.rbCustomer.TabIndex = 1;
-            this.rbCustomer.TabStop = true;
-            this.rbCustomer.Text = "CUSTOMER";
-            this.rbCustomer.UseVisualStyleBackColor = true;
+            this.clear.Location = new System.Drawing.Point(692, 37);
+            this.clear.Name = "clear";
+            this.clear.Size = new System.Drawing.Size(122, 46);
+            this.clear.TabIndex = 5;
+            this.clear.Text = "TextBox Clear";
+            this.clear.UseVisualStyleBackColor = true;
+            this.clear.Click += new System.EventHandler(this.clear_Click);
             // 
-            // rbOrders
+            // label17
             // 
-            this.rbOrders.AutoSize = true;
-            this.rbOrders.Location = new System.Drawing.Point(303, 28);
-            this.rbOrders.Name = "rbOrders";
-            this.rbOrders.Size = new System.Drawing.Size(91, 21);
-            this.rbOrders.TabIndex = 2;
-            this.rbOrders.TabStop = true;
-            this.rbOrders.Text = "ORDERS";
-            this.rbOrders.UseVisualStyleBackColor = true;
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(173, 143);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(25, 15);
+            this.label17.TabIndex = 13;
+            this.label17.Text = "<=";
+            // 
+            // saleprice2
+            // 
+            this.saleprice2.Location = new System.Drawing.Point(203, 139);
+            this.saleprice2.Name = "saleprice2";
+            this.saleprice2.Size = new System.Drawing.Size(67, 25);
+            this.saleprice2.TabIndex = 12;
+            // 
+            // saleprice1
+            // 
+            this.saleprice1.Location = new System.Drawing.Point(105, 139);
+            this.saleprice1.Name = "saleprice1";
+            this.saleprice1.Size = new System.Drawing.Size(67, 25);
+            this.saleprice1.TabIndex = 11;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(779, 692);
+            this.ClientSize = new System.Drawing.Size(839, 692);
+            this.Controls.Add(this.clear);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.panel4);
@@ -506,7 +594,7 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TextBox price;
+        private System.Windows.Forms.TextBox price1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox publisher;
         private System.Windows.Forms.Label label4;
@@ -520,12 +608,12 @@
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Label label_book;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label labeel_customer;
+        private System.Windows.Forms.Label label_customer;
         private System.Windows.Forms.TextBox phone;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox adress;
+        private System.Windows.Forms.TextBox address;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox name;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox custid;
         private System.Windows.Forms.Label label5;
@@ -533,13 +621,11 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label_orders;
-        private System.Windows.Forms.TextBox saleprice;
         private System.Windows.Forms.TextBox f_bookid;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.TextBox f_custid;
         private System.Windows.Forms.TextBox orderid;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox orderdate;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.DataGridView dataGridView1;
@@ -547,5 +633,15 @@
         private System.Windows.Forms.RadioButton rbBook;
         private System.Windows.Forms.RadioButton rbOrders;
         private System.Windows.Forms.RadioButton rbCustomer;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox price2;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.TextBox orderdate;
+        private System.Windows.Forms.Button clear;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.TextBox saleprice2;
+        private System.Windows.Forms.TextBox saleprice1;
     }
 }
