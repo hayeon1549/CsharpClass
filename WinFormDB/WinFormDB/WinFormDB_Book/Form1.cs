@@ -92,6 +92,10 @@ namespace WinFormDB_Book
 
             book_enabled();
             customer_enabled();
+
+            dataGridView1.Columns["orderid"].DisplayIndex = 0;
+            dataGridView1.Columns["custid"].DisplayIndex = 1;
+            dataGridView1.Columns["bookid"].DisplayIndex = 2;
         }
 
         private void textboxClear()
@@ -113,6 +117,7 @@ namespace WinFormDB_Book
             f_bookid.Clear();
             saleprice1.Clear();
             saleprice2.Clear();
+            orderdate.Clear();
         }
 
         private void book_enabled()
@@ -194,19 +199,19 @@ namespace WinFormDB_Book
             string condition_population = "";
             if (price1.Text != "" && price2.Text != "")
             {
-                if (price1.Text != "") //최솟값이 있는지 확인
-                {
+                condition_population = "price>=@price1 and price<=@price2";
+            }
+            else if (price1.Text != "" || price2.Text != "")
+            {
+                if (price1.Text != "")
                     condition_population = "price>=@price1";
-
-                    if (price2.Text != "") //최솟값이 있는데 최댓값이 있으면 "and" 추가
-                        condition_population += " and ";
-                }
-                if (price2.Text != "") //최댓값이 있는지 확인
-                    condition_population += "price<=@price2";
+                else
+                    condition_population = "price <= @price2";
             }
             else
+            {
                 condition_population = null;
-                
+            }
             conditions[3] = condition_population;
 
             if (conditions[0] != null || conditions[1] != null || conditions[2] != null || conditions[3] != null)
@@ -273,18 +278,19 @@ namespace WinFormDB_Book
             string condition_population = "";
             if (saleprice1.Text != "" && saleprice2.Text != "")
             {
-                if (saleprice1.Text != "") //최솟값이 있는지 확인
-                {
+                condition_population = "saleprice>=@saleprice1 and saleprice<=@saleprice2";
+            }
+            else if (saleprice1.Text != "" || saleprice2.Text != "")
+            {
+                if (saleprice1.Text != "")
                     condition_population = "saleprice>=@saleprice1";
-
-                    if (saleprice2.Text != "") //최솟값이 있는데 최댓값이 있으면 "and" 추가
-                        condition_population += " and ";
-                }
-                if (saleprice2.Text != "") //최댓값이 있는지 확인
-                    condition_population += "saleprice<=@saleprice2";
+                else
+                    condition_population = "saleprice <= @saleprice2";
             }
             else
+            {
                 condition_population = null;
+            }
 
             conditions[3] = condition_population;
 
@@ -306,7 +312,7 @@ namespace WinFormDB_Book
             adapter.SelectCommand.Parameters.AddWithValue("@custid", f_custid.Text);
             adapter.SelectCommand.Parameters.AddWithValue("@bookid", f_bookid.Text);
             adapter.SelectCommand.Parameters.AddWithValue("@saleprice1", saleprice1.Text);
-            adapter.SelectCommand.Parameters.AddWithValue("@salepriece2", saleprice2.Text);
+            adapter.SelectCommand.Parameters.AddWithValue("@saleprice2", saleprice2.Text);
             adapter.SelectCommand.Parameters.AddWithValue("@orderdate", orderdate.Text);
             #endregion
         }
@@ -338,12 +344,19 @@ namespace WinFormDB_Book
         #region Insert
         private void btnInsert_Click(object sender, EventArgs e)
         {
-            if (tableName == "book")
-                book_insert();
-            else if (tableName == "customer")
-                customer_insert();
-            else
-                orders_insert();
+            try
+            {
+                if (tableName == "book")
+                    book_insert();
+                else if (tableName == "customer")
+                    customer_insert();
+                else
+                    orders_insert();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
 
             try
             {
@@ -445,8 +458,8 @@ namespace WinFormDB_Book
                 string sql = $"UPDATE {tableName} SET orderid=@orderid, custid=@custid, bookid=@bookid, saleprice=@saleprice, orderdate=@orderdate WHERE orderid=@orderid";
                 adapter.UpdateCommand = new MySqlCommand(sql, conn);
                 adapter.UpdateCommand.Parameters.AddWithValue("@orderid", orderid.Text);
-                adapter.UpdateCommand.Parameters.AddWithValue("@custid", custid.Text);
-                adapter.UpdateCommand.Parameters.AddWithValue("@bookid", bookid.Text);
+                adapter.UpdateCommand.Parameters.AddWithValue("@custid", f_custid.Text);
+                adapter.UpdateCommand.Parameters.AddWithValue("@bookid", f_bookid.Text);
                 adapter.UpdateCommand.Parameters.AddWithValue("@saleprice", saleprice1.Text);
                 adapter.UpdateCommand.Parameters.AddWithValue("@orderdate", orderdate.Text);
             }
@@ -525,7 +538,7 @@ namespace WinFormDB_Book
                 bookname.Text = row.Cells[1].Value.ToString();
                 publisher.Text = row.Cells[2].Value.ToString();
                 price1.Text = row.Cells[3].Value.ToString();
-                price2.Text = row.Cells[3].Value.ToString();
+                price2.Clear();
             }
             else if (tableName == "customer")
             {
@@ -540,8 +553,8 @@ namespace WinFormDB_Book
                 f_custid.Text = row.Cells[1].Value.ToString();
                 f_bookid.Text = row.Cells[2].Value.ToString();
                 saleprice1.Text = row.Cells[3].Value.ToString();
-                saleprice2.Text = row.Cells[3].Value.ToString();
-                orderdate.Text = row.Cells[0].Value.ToString();
+                saleprice2.Clear();
+                orderdate.Text = row.Cells[4].Value.ToString().Substring(0, 10);
             }
         }
 

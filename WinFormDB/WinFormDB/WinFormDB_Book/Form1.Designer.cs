@@ -56,8 +56,11 @@
             this.custid = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.label17 = new System.Windows.Forms.Label();
             this.orderdate = new System.Windows.Forms.TextBox();
+            this.saleprice2 = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
+            this.saleprice1 = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
@@ -75,9 +78,6 @@
             this.rbCustomer = new System.Windows.Forms.RadioButton();
             this.rbBook = new System.Windows.Forms.RadioButton();
             this.clear = new System.Windows.Forms.Button();
-            this.label17 = new System.Windows.Forms.Label();
-            this.saleprice2 = new System.Windows.Forms.TextBox();
-            this.saleprice1 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -206,41 +206,45 @@
             // 
             // btnSelect
             // 
+            this.btnSelect.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSelect.Location = new System.Drawing.Point(0, 8);
             this.btnSelect.Name = "btnSelect";
             this.btnSelect.Size = new System.Drawing.Size(122, 46);
             this.btnSelect.TabIndex = 1;
-            this.btnSelect.Text = "SELECT";
+            this.btnSelect.Text = "검색";
             this.btnSelect.UseVisualStyleBackColor = true;
             this.btnSelect.Click += new System.EventHandler(this.btnSelect_Click);
             // 
             // btnInsert
             // 
+            this.btnInsert.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnInsert.Location = new System.Drawing.Point(128, 8);
             this.btnInsert.Name = "btnInsert";
             this.btnInsert.Size = new System.Drawing.Size(122, 46);
             this.btnInsert.TabIndex = 2;
-            this.btnInsert.Text = "INSERT";
+            this.btnInsert.Text = "추가";
             this.btnInsert.UseVisualStyleBackColor = true;
             this.btnInsert.Click += new System.EventHandler(this.btnInsert_Click);
             // 
             // btnUpdate
             // 
+            this.btnUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnUpdate.Location = new System.Drawing.Point(256, 8);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(122, 46);
             this.btnUpdate.TabIndex = 3;
-            this.btnUpdate.Text = "UPDATE";
+            this.btnUpdate.Text = "수정";
             this.btnUpdate.UseVisualStyleBackColor = true;
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnDelete
             // 
+            this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDelete.Location = new System.Drawing.Point(384, 8);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(122, 46);
             this.btnDelete.TabIndex = 4;
-            this.btnDelete.Text = "DELETE";
+            this.btnDelete.Text = "삭제";
             this.btnDelete.UseVisualStyleBackColor = true;
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
@@ -356,12 +360,28 @@
             this.panel3.Size = new System.Drawing.Size(283, 221);
             this.panel3.TabIndex = 8;
             // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(173, 143);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(25, 15);
+            this.label17.TabIndex = 13;
+            this.label17.Text = "<=";
+            // 
             // orderdate
             // 
             this.orderdate.Location = new System.Drawing.Point(105, 189);
             this.orderdate.Name = "orderdate";
             this.orderdate.Size = new System.Drawing.Size(165, 25);
             this.orderdate.TabIndex = 12;
+            // 
+            // saleprice2
+            // 
+            this.saleprice2.Location = new System.Drawing.Point(203, 139);
+            this.saleprice2.Name = "saleprice2";
+            this.saleprice2.Size = new System.Drawing.Size(67, 25);
+            this.saleprice2.TabIndex = 12;
             // 
             // label16
             // 
@@ -371,6 +391,13 @@
             this.label16.Size = new System.Drawing.Size(104, 15);
             this.label16.TabIndex = 11;
             this.label16.Text = "Insert / Update";
+            // 
+            // saleprice1
+            // 
+            this.saleprice1.Location = new System.Drawing.Point(105, 139);
+            this.saleprice1.Name = "saleprice1";
+            this.saleprice1.Size = new System.Drawing.Size(67, 25);
+            this.saleprice1.TabIndex = 11;
             // 
             // label14
             // 
@@ -470,6 +497,7 @@
             // dataGridView1
             // 
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(333, 115);
             this.dataGridView1.Name = "dataGridView1";
@@ -531,41 +559,21 @@
             // 
             // clear
             // 
+            this.clear.BackColor = System.Drawing.Color.White;
+            this.clear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.clear.Location = new System.Drawing.Point(692, 37);
             this.clear.Name = "clear";
             this.clear.Size = new System.Drawing.Size(122, 46);
             this.clear.TabIndex = 5;
             this.clear.Text = "TextBox Clear";
-            this.clear.UseVisualStyleBackColor = true;
+            this.clear.UseVisualStyleBackColor = false;
             this.clear.Click += new System.EventHandler(this.clear_Click);
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(173, 143);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(25, 15);
-            this.label17.TabIndex = 13;
-            this.label17.Text = "<=";
-            // 
-            // saleprice2
-            // 
-            this.saleprice2.Location = new System.Drawing.Point(203, 139);
-            this.saleprice2.Name = "saleprice2";
-            this.saleprice2.Size = new System.Drawing.Size(67, 25);
-            this.saleprice2.TabIndex = 12;
-            // 
-            // saleprice1
-            // 
-            this.saleprice1.Location = new System.Drawing.Point(105, 139);
-            this.saleprice1.Name = "saleprice1";
-            this.saleprice1.Size = new System.Drawing.Size(67, 25);
-            this.saleprice1.TabIndex = 11;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(839, 692);
             this.Controls.Add(this.clear);
             this.Controls.Add(this.groupBox1);
