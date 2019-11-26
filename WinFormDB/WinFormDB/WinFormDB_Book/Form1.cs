@@ -93,9 +93,7 @@ namespace WinFormDB_Book
             book_enabled();
             customer_enabled();
 
-            dataGridView1.Columns["orderid"].DisplayIndex = 0;
-            dataGridView1.Columns["custid"].DisplayIndex = 1;
-            dataGridView1.Columns["bookid"].DisplayIndex = 2;
+            dataGridView1.Columns.Clear();
         }
 
         private void textboxClear()
