@@ -74,6 +74,8 @@ namespace WinFormDB_Book
 
         private void rbOrders_CheckedChanged(object sender, EventArgs e)
         {
+            dataGridView1.Columns.Clear();
+
             tableName = "orders";
             adapterFunc(tableName);
 
@@ -92,8 +94,6 @@ namespace WinFormDB_Book
 
             book_enabled();
             customer_enabled();
-
-            dataGridView1.Columns.Clear();
         }
 
         private void textboxClear()
