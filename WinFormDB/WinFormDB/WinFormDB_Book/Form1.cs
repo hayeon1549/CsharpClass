@@ -35,7 +35,11 @@ namespace WinFormDB_Book
         {
             tableName = "book";
             adapterFunc(tableName);
-            
+
+            panel1.BackColor = Color.LightYellow;
+            panel2.BackColor = Color.White;
+            panel3.BackColor = Color.White;
+
             label_book.ForeColor = Color.Green;
             label_customer.ForeColor = Color.Black;
             label_orders.ForeColor = Color.Black;
@@ -56,6 +60,10 @@ namespace WinFormDB_Book
         {
             tableName = "customer";
             adapterFunc(tableName);
+
+            panel1.BackColor = Color.White;
+            panel2.BackColor = Color.LightYellow;
+            panel3.BackColor = Color.White;
 
             label_book.ForeColor = Color.Black;
             label_customer.ForeColor = Color.Green;
@@ -78,6 +86,10 @@ namespace WinFormDB_Book
 
             tableName = "orders";
             adapterFunc(tableName);
+
+            panel1.BackColor = Color.White;
+            panel2.BackColor = Color.White;
+            panel3.BackColor = Color.LightYellow;
 
             label_book.ForeColor = Color.Black;
             label_customer.ForeColor = Color.Black;
